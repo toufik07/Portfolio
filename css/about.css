@@ -1,0 +1,102 @@
+.AboutPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.about{
+    width: 70%;
+    height: 80%;
+    box-shadow: 5px 10px 15px 5px blueviolet;
+    margin-top:4%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.aboutprofile{
+    width: 100%;
+    height: 50%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aboutprofile >.img{
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutprofile .img .para p span{
+    font-weight: bold;
+}
+.aboutprofile .img .para{
+    align-self: center;
+    height: 100%;
+    padding: 1%;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutprofile .img .para h2{
+    background-color: blueviolet;
+    color: white;
+}
+.aboutme{
+    width: 50%;
+    margin:1%;
+    padding: 1%;
+}
+.aboutme>h2{
+    background-color: blueviolet;
+    color: white;
+}
+.aboutme>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.aboutcontent{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutcontent .education{
+    width: 38%;
+    height: 90%;
+    padding: 1%;
+    margin:1%;
+}
+.aboutcontent .education h2{
+    background-color: blueviolet;
+    color: white;
+}
+.aboutcontent .skills h2{
+    background-color: blueviolet;
+    color: white;
+}
+.aboutcontent .work h2{
+    background-color: blueviolet;
+    color: white;
+}
+.aboutcontent .skills{
+    width: 20%;
+    height: 90%;
+    padding: 1%;
+    margin:1%;
+}
+
+.aboutcontent .work{
+    width: 38%;
+    height: 90%;
+    padding: 1%;
+    margin:1%;
+}

@@ -1,0 +1,112 @@
+.ContactPage{
+    width: 98%;
+    height: 90vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 2%;
+   
+}
+.contact{
+    width: 35%;
+    height: 60%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 5px 10px 15px 5px black;
+}
+.contact h1{
+   align-self: center;
+}
+.conmail{
+    width: 70%;
+    display: flex;
+    padding: 1%;
+    align-self:center;
+    margin:1%;
+    background-color: blueviolet;
+    color:white
+}
+.conphone{
+    width: 70%;
+    display: flex;
+    padding: 1%;
+    align-self:center;
+    margin:1%;
+    background-color: blueviolet;
+    color:white
+}
+.conphone p{
+    align-self: center;
+}
+.consocialmedia{
+    width: 70%;
+    display: flex;
+    padding: 1%;
+    align-self:center;
+    justify-content: space-evenly;
+    margin:1%
+}
+.Cvbtn{
+    width: 70%;
+    display: flex;
+    padding: 1%;
+    align-self:center;
+    justify-content: space-evenly;
+    margin:1%
+}
+
+.conmail p{
+    align-self: center;
+}
+.mail{
+    width: 35%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+#contxt{
+    height: 15%;
+    padding: 1%;
+    margin:1%;
+    border: none;
+    box-shadow: 0.5px 1px 2px 2px blueviolet;
+}
+#conem{
+    height: 15%;
+    padding: 1%;
+    margin:1%;
+    border: none;
+    box-shadow: 0.5px 1px 2px 2px blueviolet;
+}
+#conmsg{
+    padding: 1%;
+    margin:1%;
+    border: none;
+    box-shadow: 0.5px 1px 2px 2px blueviolet;
+}
+#conbtn{
+    padding: 1%;
+    margin:1%;
+    height:10%;
+    width: 25%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    box-shadow: 0.5px 1px 2px 2px blueviolet;
+    font-weight: bold;
+}
+.Cvbtn>button{
+  width: 100%;
+  padding: 2%;
+  background-color:black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4%;
+}

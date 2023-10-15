@@ -5,211 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resume of toufik badkar">
-
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <title>Resume</title>
-     
-    <style>
-        *{
-            margin:0%;
-            box-sizing: border-box;
-        }
-        nav{
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            align-items: center; 
-            font-family: Rubik,sans-serif;   
-            position: sticky;
-            top:0;
-            box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
-            background-color: aliceblue;
-            z-index: 1;
-        }
-        nav > ul{
-            padding: 1%;
-            width: 50%;  
-            display: flex;
-            justify-content:space-evenly;
-            background-color:aliceblue;
-        }
-
-        nav > ul>li:hover{
-            color:black;
-            font-weight: bold;
-        }
-        nav>ul>li{
-            padding: 0.5%;
-        }
-        .navigation > h1{
-            font-family: Georgia, serif;;
-            color: whitesmoke;
-            width: 100%;
-            text-align: center;
-            
-        }
-        .navigation >h1> span{
-            color:black;
-        }
-
-        main{
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: space-between;
-            background: rgb(255,253,253);
-            background: radial-gradient(circle, rgba(255,253,253,1) 34%, rgba(148,187,233,1) 85%);
-        }
-        .content{
-            height: 50%;
-            width: 25%;
-            text-align: center;
-            padding: 2%;
-            font-weight: bold;
-            font-size: 200%;
-            line-height: 1.5;
-            position: relative;
-            top:10vw;
-            left: 40vw;
-            z-index: 0;
-            animation-name: slidein;
-            animation-duration: 4s;
-            
-        }
-        .navigation{
-           width: 100%;
-           background: rgb(121,117,231);
-           background: linear-gradient(90deg, rgba(121,117,231,1) 21%, rgba(205,237,249,0.9136904761904762) 66%);
-        }
-        .content>h2>span{
-            color: rebeccapurple;
-        }
-
-        @keyframes slidein {
-            0%   { left:0px; top:200px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;}
-            25%  {left:200px; top:0px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;}
-           50%  {left:300px; top:200px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-           75%  {left:400px; top:0px;font-family: 'Times New Roman', Times, serif;}
-           100% {left:600px; top:180px;}
-        }
-
-        @media  (max-width: 768px) {
-            .content{
-                top:10%;
-                left: 10%;
-                text-align: start;
-                width: 50%;
-            }
-            main{
-                flex-direction: column;
-            }
-            
-            nav > ul{
-                width: 100%;
-            }
-            .image{
-                align-self: flex-end;
-            }
-         }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/fevicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    
-    <nav>
-        <div class="navigation">
-             <h1>
-            <span>T</span>OUFIK
-             </h1>
-        </div>
-      
-
-
-        <ul style="list-style-type: none;">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-
-    <main>
-        <div class="content">
-            <h2>Hi I'm <span>Toufik</span> Badkar From Ichalkaranji</h2>
-        </div>
-        <div class="image">
-           <img src="images/toufik homepage.png" >
-        </div>
-    </main>
-    
-
-    
-        <p>Contact <a href="toufikbadkar80@gmail.com">toufikbadkar80@gmail.com</a></p>
-        <p>Linkdin  <a href="https://www.linkedin.com/in/toufik-badkar-3235a9208/"> https://www.linkedin.com/in/toufik-badkar-3235a9208/</a></p>
-        <p>Github <a href="https://github.com/toufik07?tab=repositories">https://github.com/toufik07?tab=repositories</a></p>
-
-        <table>
-            <tr>
-                <td><img src="./images/toufik.png" alt="" width="200" height="250"></td>
-                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut quisquam, tempora quibusdam quo nulla nostrum at consectetur. Veritatis perspiciatis iste inventore adipisci sunt doloribus ullam sed exercitationem dolores vero.
-                Corporis nobis commodi perferendis quibusdam dolores adipisci mollitia voluptates impedit explicabo. A error explicabo reprehenderit. Veniam doloribus minima asperiores libero magni sunt facilis, natus excepturi nihil eligendi ratione error! Quibusdam.
-                Id sed sit laudantium optio! Dicta, voluptas id vero ratione aut cumque nostrum dolorum unde architecto iusto. Architecto impedit nulla commodi exercitationem rem quos, saepe alias porro ullam natus veniam!</p></td>
-            </tr>
-        </table>
-
-        <section>
-            <h2>Education</h2>
-
-            <ul>
-                <li>Bachelor of Technology in Computer Science and Engineering , Sharad Institute of Technology Engineering</li>
-                <li>Diploma in Information Technology,Sharad Institute of Technology Polytechnic</li>
+    <div class="home">
+        <nav>
+            <div class="nav">
+                 <img src="./images/tblogo.png" alt="" height="100%" >
+            </div>
+            <ul style="list-style-type: none;">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <!-- <li><a href="">SERVICES</a></li> -->
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </section>
+        </nav>
 
-        <section>
-            <h2>Work Experience</h2>
-               
-            <h3>Teaching Assistent,CodingNinja</h3>
+        <main>
+            <!-- Index -->
+            <div class="Index">
+                <div class="HomePage">
+                    <div class="text">
+                        <h1>I,M Toufik <span>Badkar </span> </h1>
+                        <p>
+                            
+                            This is my Portfolio website which shows my all Details.
+                        </p>
+                         <button id="cvbutton">
+                                Download CV
+                         </button> 
+                    </div>
 
-            <p>Dec 2023 - Dec 2024</p>
-             <ul>
-                <li>Resolved students queries in DSA problems </li>
-                <li>Given explaination of each step in problems</li>
-             </ul>
-        </section>
+                    <div class="externallink">
+                        <div class="msg">
+                            <a href="toufikbadkar80@gmail.com">
+                                <i class="fa fa-envelope" style="font-size:40px;color:rgb(34, 0, 255)"></i>
+                             </a>
+                        </div>
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/toufik-badkar-3235a9208/">  
+                                <i class="fa fa-linkedin-square" style="font-size:40px;color:rgb(34, 0, 255)"></i>
+                            </a>
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/toufik07?tab=repositories">  
+                                <i class="fa fa-github" style="font-size:40px;color:rgb(34, 0, 255)"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-        <section>
-            <h2>Skills</h2>
-               
-            <ul>
-                <li>Java</li>
-                <li>c++</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React Js</li>
-                <li>Node Js</li>
-            </ul>
-        </section>
+                <div class="profile"> 
+                    <img src="./images/shape.png" alt="" class="shape" width="32%" height="35%">
+                   <img src="./images/toufikprofile (2).png" alt="" class="boy" width="20%" height="35%">
+                </div>
+            </div>
+            
+            <!-- About -->
+            <div class="AboutPage" id="about">
+                <div class="about">
+                    <div class="aboutprofile">
+                         <div class="img">
+                              <img src="./images/toufik.png" alt="" width="35%" >
+                              <div class="para">
+                                    <h2>Profile</h2>
+                                    <p>
+                                        <span>Name</span>  :- Toufik Usman Badkar
+                                    </p>
+                                    <p>
+                                        <span>Email</span>  :- @toufikbadkar80@gmail.com    
+                                    </p>
+                                    <p>
+                                        <span>Phone</span>  :- 9766546480
+                                    </p>
+                                    <p>
+                                        <span>Address</span>  :- Renuka Nagar Yadrav
+                                    </p>
+                              </div>
+                         </div>
+                         <div class="aboutme">
+                            <h2>About me</h2>
+                            <br>
+                            <p>
+                                I'm Toufik Usman Badkar, a dedicated student currently pursuing a Bachelor of Technology (B.Tech) degree in Computer Science and Engineering. I am passionate about exploring the world of technology and its endless possibilities.
+                                In addition to my academic pursuits, I have a keen interest in Web Development and DSA.I believe that combining knowledge with practical experience is the key to success in this ever-evolving field.
+                            </p>
+                         </div>
+                    </div>
 
-         <section>
-            <h2>Achievements</h2>
+                    <div class="aboutcontent">
+                       <div class="education">
+                         <h2>Education</h2>
+                         <br>
+                         <p>
+                            <b>10th -</b> The New highschool Yadrav Ichalkaranji.
+                            <br>
+                            <b>Diploma -</b> Sharad Institute Of Technology Polytechnic Yadrav Ichalkaranji.
+                            <br>
+                            <b>B.Tech - </b> Sharad Institute Of Technology College of Engineering Yadrav Ichalkaranji.
+                         </p>
+                       </div>
 
-            <ul>
-                <li>Published "The Website on Ecommerce" paper on Mantech Publications</li>
-                <li>Got second rank in "Blind coding" event during diploma</li>
-            </ul>
-         </section>
+                       <div class="skills">
+                        <h2>Skills</h2>
+                        <br>
+                        <ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React Js</li>
+                            <li>Node Js</li>
+                        </ul>
+                       </div>
+                     
+                        <div class="work">
+                            <h2>Work Experience</h2>
+                            <br>
+                            <p>
+                                <b>2022-23 :</b>Internship at stromsoft for web development.
+                                <b>2023-24 :</b>Internship at Spark IT Developers for Data Science.
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-         <section>
-            <h2>Projects</h2>
+            <div class="ContactPage" id="contact">
+                <div class="contact">
+                   <h1>
+                    Contact Me
+                   </h1>
+                   <div class="conmail">
+                        <i class="fa fa-envelope" style="font-size:24px;color:white;border-radius: 50%;border: 1px solid black;padding: 2%;background-color: black;"></i>
+                        <p>toufikbadkar80@gmail.com</p>
+                   </div>
+                   <div class="conphone">
+                        <i style="font-size:24px;border-radius: 50%;border: 1px solid black;padding: 2%;background-color: black;color:white" class="fa">&#xf095;</i>
+                        <p>9766546480</p>
+                   </div>
+                   <div class="consocialmedia">
+                    <i style="font-size:40px;"class="fa fa-facebook-square" ></i>
+                    <i class="fa fa-linkedin-square" style="font-size:40px"></i>
+                   </div>
+                   <div class="Cvbtn">
+                       <button>
+                           Download CV
+                       </button>
+                   </div>   
+                </div>
+                <div class="mail">
+                    <input type="text" placeholder="Your name" id="contxt">
+                    <input type="email" name="" id="conem" placeholder="Your email">
+                    <textarea name="Your message" id="conmsg" cols="30" rows="10" placeholder="Your message">
+                     
+                    </textarea>
+                    <button id="conbtn">
+                        Submit
+                    </button>
 
-            <ul>
-                <li><b>Web Scraping Product Prices</b></li>
-                 <li>Web Scraping project - developed website by using python</li>
-                 <li>Github link <a href=""></a></li>
-            </ul>
-         </section>
+                </div>
+            </div>
+
+        </main>
+        
     
 </body>
 </html>

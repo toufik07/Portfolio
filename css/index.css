@@ -98,17 +98,17 @@ nav>ul>li>a{
 }
 .profile{
     width: 30%; 
-    height: 90%;
+    height: 80vh;
     margin: 2%;
     display: flex;
     justify-content: center;
 }
 .profile > img{
     position: absolute;
-    height: 22%;
+    height: 500px;
 }
 .profile:hover .shape{
-    bottom: 65%;
+    bottom: 70%;
 }
 .profile:hover .boy{
    left: 70%;
